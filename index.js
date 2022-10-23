@@ -15,7 +15,7 @@ app.get("/websites", (req, res) => {
       res.status(404).send({statusId: 404, message: err})
     }
     else { 
-      res.status(200).send({ message: "Phone not registered. Available for registeration", sites: result, statusId: 200})
+      res.status(200).send({ message: "Data Fetched", sites: result, statusId: 200})
     }
   })
 });
