@@ -22,6 +22,16 @@ app.get("/websites", (req, res) => {
 
 
 
+app.get("/test", (req, res) => {
+  con.query("select * from collection where 1", (err, result) => {
+    if (err) {
+     res.send(err)
+    }
+   else{
+res.send("Connection Test route is up and running") 
+   }
+
+});
 
 
 
