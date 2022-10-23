@@ -30,7 +30,7 @@ app.get("/test", (req, res) => {
    else{
 res.send("Connection Test route is up and running") 
    }
-
+  })
 });
 
 
