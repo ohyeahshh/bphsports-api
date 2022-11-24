@@ -10,7 +10,7 @@ res.send("BPH Sports API is up and running")
 });
 
 app.get("/websites", (req, res) => {
-  con.query("select id, name, link from collection where 1", (err, result) => {
+  con.query("select * from collection where 1", (err, result) => {
     if (err) {
       res.status(404).send({statusId: 404, message: "Error Occured"})
     }
