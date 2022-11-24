@@ -1,9 +1,9 @@
 const mysql = require("mysql");
 const con= mysql.createConnection({
-    host:'sql662.main-hosting.eu',
-    user:'u476632856_bphsports',
-    password:"AwFh9fx8]t",
-    database:"u476632856_bphsports",
+    host:'sql665.main-hosting.eu',
+    user:'u199803092_bphdb',
+    password:"W2K/V/]^>z",
+    database:"u199803092_bphdb",
     "options":{
         instanceName: 'SELECT @@servicename',
         "encrypt":true,
